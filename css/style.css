@@ -1,0 +1,50 @@
+body{
+    background-color:#fef2dd;
+}
+h2{
+    position: absolute;
+    top: 25%;
+    left: 35%;
+ 
+    font-size: 30px;
+    font-family: Arial,Helvetica, sans-serif;
+    background: linear-gradient(to right, #0d3f05, #1c9130,#2fac33, #eedd44);
+    -webkit-text-fill-color: transparent;
+    -webkit-background-clip: text;
+}
+h1::after {
+    content: "";
+    width: 215px;
+    height: 10px;
+    position: absolute;
+    background-color: #ffc107;
+    bottom: 0;
+    left: 0;
+    z-index: 3;
+
+}
+
+
+h1 {
+    z-index: 2;
+}
+h1:hover{
+    height:50px ;
+
+}
+.btn{
+    background-color: rgb(196, 67, 21);
+    color: white;
+}
+.btn:hover{
+    background-color: rgb(149, 55, 21);
+    color: white;
+}
+.bookmark-body{
+    
+    border-top: 1px;
+    border-bottom: 1px;
+    border-style: dashed;
+    border-left: 0;
+    border-right: 0;
+}
